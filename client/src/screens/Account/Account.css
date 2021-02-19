@@ -1,0 +1,65 @@
+.danger {
+    background-color: brown;
+}
+
+.account-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 2fr 1fr 1fr;
+}
+.account-main-title {
+	grid-column: 2/3;
+	align-self: end;
+	text-align: center;
+}
+.account-container form{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	align-content: center;
+}
+
+.account-form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+.account-form label {
+	padding-left: 10px;
+	margin-top: 15px;
+	justify-self: start;
+}
+.account-form input {
+	border: none;
+	border-radius: 25px;
+	background-color: #E2E2E3;
+	height: 30px;
+	width: 332px;
+}
+.account-form button {
+	background-color: #3F3FFA;
+  color: #ffffff;
+	border-radius: 25px;
+  align-self: center;
+  text-align: center;
+  font-weight: 500;
+	height: 30px;
+	width: 332px;
+	margin-top: 30px;
+}
+.account-or {
+	grid-column: 2/3;
+	grid-row: 3/4;
+	align-self: center;
+  text-align: center;
+}
+.account-create-account {
+	grid-column: 2/3;
+	grid-row: 4/5;
+	place-self: center;
+	align-self: start;
+  text-align: center;
+	width: 332px;
+	border: 2px solid #000000;
+	border-radius: 25px;
+}

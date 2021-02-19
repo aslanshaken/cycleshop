@@ -1,0 +1,116 @@
+.edit-container img {
+  max-width: 800px;
+  max-height: auto;
+}
+.edit-container-logo {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  padding: 240px 0;
+  background-color: #424b54;
+  background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
+}
+.edit-logo {
+  display: flex;
+  width: 350px;
+  margin: auto;
+}
+
+.edit-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-column: 1;
+  width: 100vw;
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #e3ddd8, #ffffff 30%);
+}
+
+.edit-img {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.edit-name {
+	grid-column: 3/4;
+	grid-row: 1/2;
+  place-self: center;
+}
+/* THIS */
+.edit-description {
+	grid-column: 4/5;
+	grid-row: 2/3;
+	align-self: start;
+  height: 120px;
+  resize: none;
+}
+/* THIS */
+.edit-price {
+	grid-column: 4/5;
+	grid-row: 2/3;
+	align-self: center;
+}
+.edit-save {
+	border-radius: 25px;
+  width: 80px;
+  grid-column: 3;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 500;
+  height: 30px;
+  padding-top: 3px;
+  font-size: 15px;
+}
+.edit-save {
+	/* margin-right: 110px; */
+  background-color: #262c31;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 375px) {
+  .edit-logo,
+  .edit-container img {
+    width: 300px;
+  }
+  .edit-container-logo {
+    width: 100vw;
+  }
+  .edit-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr 1fr;
+    grid-column: 1;
+    width: 100vw;
+  }
+  /* TEST */
+  .edit-name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    place-self: center;
+  }
+  .edit-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+  }
+  .edit-description {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: start;
+  }
+  .edit-price {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    place-self: center;
+  }
+  .edit-save {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  .edit-edit,
+  .edit-delete {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+}

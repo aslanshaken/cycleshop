@@ -1,0 +1,132 @@
+.sell-container-main-title {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  padding: 240px 0;
+  background-color: #424b54;
+  background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
+}
+.sell-main-title {
+  display: flex;
+  font-size: 100px;
+  margin: auto;
+}
+.sell-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 50px) 2fr 50px;
+  grid-column: 1;
+  width: 100vw;
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #e3ddd8, #ffffff 30%);
+}
+.sell-title,
+.sell-header-title,
+.sell-brand,
+.sell-header-brand,
+.sell-price,
+.sell-header-price,
+.sell-header-description,
+.sell-description,
+.sell-header-img-link,
+.sell-img-link,
+.sell-submit {
+	grid-column: 3/4;
+}
+.sell-title,
+.sell-brand,
+.sell-price,
+.sell-img-link {
+	height: 20px;
+	background-color: #E2E2E3;
+	border: none;
+	border-radius: 10px;
+}
+.sell-header-title,
+.sell-header-brand,
+.sell-header-price,
+.sell-header-description,
+.sell-header-img-link {
+	align-self: end;
+	padding: 5px;
+
+}
+.sell-header-title {
+	grid-row: 1/2;
+}
+.sell-title {
+	grid-row: 2/3;
+}
+.sell-header-brand {
+	grid-row: 2/3;
+}
+.sell-brand {
+	grid-row: 3/4;
+}
+.sell-header-description {
+	grid-row: 3/4;
+
+}
+.sell-description {
+	grid-row: 4/5;
+	background-color: #E2E2E3;
+	border: none;
+	border-radius: 10px;
+	resize: none;
+	/* height: 50px; */
+}
+.sell-header-price {
+	grid-row: 5/6;
+}
+.sell-price {
+	grid-row: 6/7;
+}
+.sell-header-img-link {
+	grid-row: 6/7;
+}
+.sell-img-link {
+	grid-row: 7/8;
+}
+.sell-submit {
+	grid-row: 8/9;
+	background-color: #262c31;
+  color: #ffffff;
+	border-radius: 25px;
+  width: 80px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 375px){
+	.sell-container-main-title{
+		width: 100vw;
+	}.sell-main-title {
+		text-align: center;
+		flex-wrap: wrap;
+		font-size: 60px;
+	}
+	.sell-container {
+		display: grid;
+		grid-template-columns: 1fr 5fr 1fr;
+		/* grid-template-rows: 4fr; */
+		grid-column: 1;
+		width: 100vw;
+		background-color: #ffffff;
+		background-image: linear-gradient(to top,#ffffff, #ffffff);
+	}
+	.sell-title,
+.sell-header-title,
+.sell-brand,
+.sell-header-brand,
+.sell-price,
+.sell-header-price,
+.sell-header-description,
+.sell-description,
+.sell-header-img-link,
+.sell-img-link,
+.sell-submit {
+	grid-column: 2/3;
+}
+}

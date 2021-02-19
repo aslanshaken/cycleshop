@@ -1,0 +1,78 @@
+.brand-container img {
+  max-width: 800px;
+  max-height: auto;
+}
+.brand-container-logo {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  padding: 240px 0;
+  background-color: #424b54;
+  background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
+}
+.brand-logo {
+  display: flex;
+  width: 350px;
+  margin: auto;
+}
+
+.brand-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-column: 1;
+  width: 100vw;
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #e3ddd8, #ffffff 30%);
+}
+.brand-name,
+.brand-img,
+.brand-price {
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+}
+.brand-name {
+  grid-row: 1/2;
+  font-size: 30px;
+  font-weight: 500;
+}
+.brand-img {
+  grid-row: 2/3;
+}
+.brand-price {
+  grid-row: 3/4;
+}
+.brand-sell,
+.brand-manage {
+  border-radius: 25px;
+  width: 80px;
+  grid-column: 3;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  height: 30px;
+  padding-top: 3px;
+  font-weight: 500;
+}
+.brand-manage {
+  margin-right: 110px;
+  background-color: #262c31;
+  color: #ffffff;
+}
+.brand-sell {
+  margin-left: 110px;
+  background-color: #e2e2e3;
+  color: #000000;
+}
+
+@media only screen and (max-width: 375px) {
+  .brand-logo,
+  .brand-container img{
+    width: 300px;
+  }
+  .brand-container-logo {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,90 @@
+.contact-container-main-title {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  padding: 240px 0;
+  background-color: #424b54;
+  background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
+}
+.contact-main-title {
+  display: flex;
+  font-size: 100px;
+  margin: auto;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-column: 1;
+  width: 100vw;
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #e3ddd8, #ffffff 30%);
+}
+.contact-shanye,
+.contact-aslan,
+.contact-varit,
+.contact-steven {
+  grid-row: 2/3;
+	place-self: center;
+}
+.contact-shanye {
+  grid-column: 1/2;
+	
+}
+.contact-aslan {
+  grid-column: 2/3;
+}
+.contact-varit {
+  grid-column: 3/4;
+}
+.contact-steven {
+  grid-column: 4/5;
+}
+.social-icon-github {
+	padding-left: 110px;
+}
+.social-icon-linkedin {
+	padding-left: 10px;
+}
+p {
+	width:300px;
+	height: 150px;
+}
+@media only screen and (max-width: 375px){
+	.contact-main-title {
+		text-align: center;
+	}
+	.contact-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 4fr;
+		grid-column: 1;
+		width: 100vw;
+		background-color: #ffffff;
+		background-image: linear-gradient(to top,#ffffff, #ffffff);
+
+	}
+	.contact-shanye,
+	.contact-aslan,
+	.contact-varit,
+	.contact-steven {
+		grid-column: 1/2;
+		place-self: center;
+		background-color: #c5baaf;
+		background-image: linear-gradient(to top, #c5baaf, #E3DDD8, #FFFFFF 30%);
+		margin-top: 20px;
+    width: 300px;
+	}
+	.contact-shanye {
+		grid-row: 1/2;
+	}
+	.contact-aslan {
+		grid-row: 2/3;
+	}
+	.contact-varit {
+		grid-row: 3/4;
+	}
+	.contact-steven {
+		grid-row: 4/5;
+	}
+}

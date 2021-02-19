@@ -1,0 +1,113 @@
+.manage-container img {
+  max-width: 800px;
+  max-height: auto;
+}
+.manage-container-logo {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  padding: 240px 0;
+  background-color: #424b54;
+  background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
+}
+.manage-logo {
+  display: flex;
+  width: 350px;
+  margin: auto;
+}
+
+.manage-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column: 1;
+  width: 100vw;
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #e3ddd8, #ffffff 30%);
+}
+
+.manage-img {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+.manage-name {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  place-self: center;
+}
+.manage-description {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  align-self: start;
+}
+.manage-price {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  align-self: center;
+}
+.manage-edit,
+.manage-delete {
+  border-radius: 25px;
+  width: 80px;
+  grid-column: 3;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 500;
+  height: 30px;
+  padding-top: 3px;
+}
+.manage-edit {
+  margin-right: 110px;
+  background-color: #262c31;
+  color: #ffffff;
+}
+.manage-delete {
+  margin-left: 110px;
+  background-color: #e2e2e3;
+  color: #000000;
+  font-size: 15px;
+}
+@media only screen and (max-width: 375px) {
+  .manage-logo,
+  .manage-container img {
+    width: 300px;
+  }
+  .manage-container-logo {
+    width: 100vw;
+  }
+  .manage-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr 1fr;
+    grid-column: 1;
+    width: 100vw;
+  }
+  /* TEST */
+  .manage-name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+  }
+  .manage-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+  }
+  .manage-description {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: start;
+  }
+  .manage-price {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    place-self: center;
+  }
+  .manage-edit,
+  .manage-delete {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+}
