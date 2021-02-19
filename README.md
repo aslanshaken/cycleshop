@@ -1,33 +1,8 @@
 <h1 align="center"><strong>cycleShop</strong></h1>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
+<h3 align="center"><strong>Team Project</strong></h3>
+Project Link: [https://cycleshop.netlify.app](https://cycleshop.netlify.app)
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
-<!-- [![Forks][forks-shield]][forks-url] -->
-<!-- [![Stargazers][stars-shield]][stars-url] -->
-<!-- [![Issues][issues-shield]][issues-url] -->
-<!-- [![MIT License][license-shield]][license-url] -->
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 <!-- PROJECT LOGO -->
@@ -42,45 +17,9 @@
   <p align="center">
     cycleShop is a MERN stack, full CRUD motorcycle exchange app. CycleShop facilitates consumer-to-consumer sales of motorcycles through the website. 
     <br />
-    <a href="https://github.com/vaykoActual/project3"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/vaykoActual/project3/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -97,12 +36,10 @@ Build a full stack Mongo/Express/React/Node app, commonly referred to as the MER
 
 ### Built With
 
-* [Mongo]()
-* [Express]()
 * [React]()
+* [Express]()
 * [Node]()
-
-
+* [MongoDB]()
 
 
 
@@ -113,7 +50,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-<!-- This is an example of how to list things you need to use the software and how to install them. -->
 * npm
   ```sh
   npm install npm@latest -g
@@ -126,23 +62,16 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vaykoActual/cycleShop
+   git clone https://github.com/leeuwork/cycleshop
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-
-
-
-<!-- USAGE EXAMPLES -->
+   
 ## Usage
 
 This app will demonstrate the CRUD framework utilizing Mongo, Express, React and Node. We setup the frontend as motorcycle e-commerce site with JWT authentication.
-
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 
 ## Schema
@@ -182,8 +111,7 @@ module.exports = mongoose.model('users', User)
 
 <!-- ROADMAP -->
 ## Roadmap
-
-Flow-chart- https://ibb.co/GP3nsL9
+Flow-Chart 
 ![moto-chart (3)](https://user-images.githubusercontent.com/76179998/108370248-70848e80-71ca-11eb-9d5c-4900e2a29a66.png)
 
 <!-- Styling - https://ibb.co/2WV5x7k
@@ -233,31 +161,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Aslan Shaken<br>
-Varit Seekhao<br>
+Aslan Shaken: aslanshaken@gmail.com<br>
+Varit Seekhao: <br>
 Steven Strumolo: stevenstrumolo@gmail.com<br>
 Shayne Vaykovich: svayko@gmail.com<br>
 
-Project Link: [https://github.com/vaykoActual/cycleShop](https://github.com/vaykoActual/cycleShop)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [Aslan Shaken]()
-* [Varit Seekhao]()
-* [Steven Strumolo]()
-* [Shayne Vaykovich]()
-
-## Team Expectations
-
-https://docs.google.com/document/d/1xWi6WSEvyMIOxNFFeid_hWvICWHbrnMiSHir_I-MBtY/edit
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
 [contributors-url]: https://github.com/vaykoActual/cycleShop
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
