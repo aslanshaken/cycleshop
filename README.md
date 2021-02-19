@@ -1,6 +1,6 @@
 <h1 align="center"><strong>cycleShop</strong></h1>
 <h3 align="center"><strong>Team Project</strong></h3>
-Project Link: [https://cycleshop.netlify.app](https://cycleshop.netlify.app)
+<h3 align="center"><strong>Project Link: https://cycleshop.netlify.app </strong></h3>
 
 
 
